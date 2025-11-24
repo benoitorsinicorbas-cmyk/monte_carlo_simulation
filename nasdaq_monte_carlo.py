@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 # ------------------------------
 # 1. Paramètres de base
 # ------------------------------
-ticker = "^IXIC"        # Nasdaq Composite ; tu peux mettre "QQQ" ou autre
-start_date = "2020-01-01"
+ticker = "COV.PA"        # Nasdaq Composite ; tu peux mettre "QQQ" ou autre
+start_date = "2015-01-01"
 end_date = None          # jusqu'à aujourd'hui
 
 # Horizon de la simulation
@@ -121,3 +121,4 @@ plt.ylabel("Densité")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
